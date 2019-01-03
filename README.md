@@ -10,12 +10,52 @@ Each burger in the waiting area also has a Devour! button. When the user clicks 
 My app will store every burger in a database, whether devoured or not.
 
 ## Demo
-![Alt Text](https://media.giphy.com/media/9x4ZypfElgI3Sg3sBG/giphy.gif)
+![Alt Text](https://media.giphy.com/media/OPf7sFAj7xPDl1QDLO/giphy.gif)
 
 ## Technology
 MySQL, Node, Express, Handlebars and a homemade ORM 
 
-## Code
+# Code
+
+## Making a connection to JAWSDB  
+	var connection;
+
+	if (process.env.JAWSDB_URL) {
+    connection = mysql.createConnection(process.env.JAWSDB_URL);
+
+	} else {
+    connection = mysql.createConnection({
+        host: "localhost",
+        port: 3306,
+        user: "root",
+        password: "password",
+        database: "burgers_db"
+      });
+	}
+
+## Homemade ORM
+	var connection = require("../config/connection.js");
+	update: function(table, objColVals, condition, cb) {
+    var queryString = "UPDATE " + table;
+
+    queryString += " SET ";
+    queryString += objToSql(objColVals);
+    queryString += " WHERE ";
+    queryString += condition;
+
+    console.log(queryString);
+    connection.query(queryString, function(err, result) {
+      if (err) {
+        throw err;
+      }
+
+      cb(result);
+    });
+  	}
+	};
+
+	module.exports = orm;
+
 
 ## Installation
 
