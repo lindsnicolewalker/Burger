@@ -1,6 +1,6 @@
 # Burger
 Check it out [here](https://secret-beach-37555.herokuapp.com/)
-![Alt Text](https://gph.to/2VmH8xb)
+![Alt Text](https://media.giphy.com/media/4ZaY2DxKxUDRILkOKr/giphy.gif)
 
 
 ## Description
