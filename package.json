@@ -1,14 +1,10 @@
 {
   "name": "burger",
   "version": "1.0.0",
-  "description": "\u0016\u0016MVC design pattern; use Node and MySQL to query and route data in your app, and Handlebars to generate your HTML\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[",
-  "main": "index.js",
+  "description": "MVC design pattern that uses Node and MySQL to query and route data in my app, and Handlebars to generate HTML",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lindsnicolewalker/Burger.git"
   },
   "keywords": [
     "MySQL",
@@ -24,14 +20,12 @@
   ],
   "author": "Lindsey Walker",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/lindsnicolewalker/Burger/issues"
-  },
-  "homepage": "https://github.com/lindsnicolewalker/Burger#readme",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.4",
+    "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
     "mysql": "^2.16.0"
+  },
+  "devDependencies": {
+    "handlebars-helper-css": "^0.1.0"
   }
 }
