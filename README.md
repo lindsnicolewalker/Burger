@@ -1,5 +1,5 @@
 # Burger
-Check it out [here](https://secret-beach-37555.herokuapp.com/)
+Check it out [here](https://secret-beach-37555.herokuapp.com/)  
 ![Alt Text](https://media.giphy.com/media/4ZaY2DxKxUDRILkOKr/giphy.gif)
 
 
@@ -10,7 +10,7 @@ Each burger in the waiting area also has a Devour! button. When the user clicks 
 My app will store every burger in a database, whether devoured or not.
 
 ## Demo
-![Alt Text](https://media.giphy.com/media/ZcLzUkJmJOJlbIZMEY/giphy.gif)
+![Alt Text](https://media.giphy.com/media/9x4ZypfElgI3Sg3sBG/giphy.gif)
 
 ## Technology
 MySQL, Node, Express, Handlebars and a homemade ORM 
