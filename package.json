@@ -2,7 +2,7 @@
   "name": "burger",
   "version": "1.0.0",
   "description": "MVC design pattern that uses Node and MySQL to query and route data in my app, and Handlebars to generate HTML",
-  "main": "node server.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
